@@ -146,6 +146,7 @@ h1 {
     width: 90dvw;
     border-radius: 15px;
     user-select: none;
+    transform: translateY(-10dvw);
     
 }
 
