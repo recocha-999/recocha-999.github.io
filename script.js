@@ -15,7 +15,7 @@ perro.style.opacity = '0';
  let audio = new Audio('./peppa.mp3');
     
    
-    audio.loop = true;
+    audio.loop = false;
 
 
 window.addEventListener('beforeunload', () => {
