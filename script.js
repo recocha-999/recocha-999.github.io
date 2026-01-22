@@ -17,6 +17,12 @@ perro.style.opacity = '0';
    
     audio.loop = true;
 
+
+window.addEventListener('beforeunload', () => {
+    audio.pause();
+    audio.currentTime = 0;
+});
+
 click.addEventListener('touchstart', () => {
     
     document.body.removeChild(emp);
