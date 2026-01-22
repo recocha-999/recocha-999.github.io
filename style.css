@@ -145,6 +145,7 @@ h1 {
     justify-sef: center;
     width: 90dvw;
     border-radius: 15px;
+    user-select: none;
     
 }
 
